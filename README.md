@@ -1,5 +1,7 @@
 # APEX MOTION — Premium 3D Interactive Product Website
 
+**🌐 Live Demo:** [https://apex-motion-seven.vercel.app](https://apex-motion-seven.vercel.app)
+
 A production-ready, premium 3D interactive product website built for the fictional **APEX MOTION** brand, featuring the **APEX R1** — engineered for the next move.
 
 ---
@@ -52,13 +54,13 @@ npm install
 ## Development
 
 ```bash
-export PATH="/Users/kunalkakde/.openclaw/tools/node-v22.22.0/bin:$PATH"
 npm run dev
 ```
 
 Then open [http://localhost:3000](http://localhost:3000)
 
-> **Note:** If Node.js is installed globally, simply run `npm run dev`.
+> **Note:** If Node.js isn't in your PATH, prefix with:
+> `export PATH="/Users/kunalkakde/.openclaw/tools/node-v22.22.0/bin:$PATH"`
 
 ---
 
@@ -68,6 +70,8 @@ Then open [http://localhost:3000](http://localhost:3000)
 npm run build
 npm run start
 ```
+
+> **Already deployed →** [https://apex-motion-seven.vercel.app](https://apex-motion-seven.vercel.app)
 
 ---
 
